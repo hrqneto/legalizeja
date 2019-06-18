@@ -1,0 +1,27 @@
+body, html {
+    height: 100vh;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    overflow-x: hidden;
+}
+
+/*home*/
+    .carousel {
+        height: 100vh;
+        width: 100%;
+        overflow:hidden;
+    }
+    .carousel .carousel-inner {
+        height:100%;    
+    }
+    .carousel .carousel-inner img {
+        display:block;
+        object-fit: cover;
+    }
+    .carousel-control-next-icon, .carousel-control-prev-icon {
+        height: 80px !important;
+        width: 80px !important;
+    }
