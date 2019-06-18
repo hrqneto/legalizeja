@@ -15,17 +15,14 @@ body, html {
         overflow:hidden;
     }
     .carousel .carousel-inner {
-        height: 100%;
-        text-align: center;
-        right: 0;
-        left: 450px;  
+        height:100%;    
     }
     .carousel .carousel-inner img {
-        display:block;
         object-fit: cover;
-        width: 980px !important;
+        width: 100% !important;
         height: auto;
-        margin: 100px 0 0 0;
+        padding: 200px;
+        margin: -95px 0 86px 0 !important;
     }
     .carousel-control-next-icon, .carousel-control-prev-icon {
         height: 80px !important;
@@ -34,12 +31,14 @@ body, html {
 
     .carousel-control-prev {
         left: 0;
-        /* color: blueviolet; */
         background: #155724 !important;
+        width: 50px !important;
     }
 
     .carousel-control-next {
         right: 0;
         background: #155724 !important;
+        width: 50px !important;
+
 
     }
