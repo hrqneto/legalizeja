@@ -15,13 +15,31 @@ body, html {
         overflow:hidden;
     }
     .carousel .carousel-inner {
-        height:100%;    
+        height: 100%;
+        text-align: center;
+        right: 0;
+        left: 450px;  
     }
     .carousel .carousel-inner img {
         display:block;
         object-fit: cover;
+        width: 980px !important;
+        height: auto;
+        margin: 100px 0 0 0;
     }
     .carousel-control-next-icon, .carousel-control-prev-icon {
         height: 80px !important;
         width: 80px !important;
+    }
+
+    .carousel-control-prev {
+        left: 0;
+        /* color: blueviolet; */
+        background: #155724 !important;
+    }
+
+    .carousel-control-next {
+        right: 0;
+        background: #155724 !important;
+
     }
